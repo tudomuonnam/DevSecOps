@@ -1,9 +1,9 @@
-Mục tiêu: Trên VPS có hai app chạy trên docker, sử dụng hai port khác nhau, Ví dụ
+Bài toán: Trên VPS có hai dịch vụ khác nhau chạy trên các IP riêng biệt, Ví dụ
 
-- App 1: Port 8001
-- App 2: Port 8002
+- App 1: Website giới thiệu (chạy trên IP1)
+- App 2: Blog (chay trên IP2)
 
-Setup nginx sao cho khi trỏ địa chỉ web1.local sẽ tới app 1, web2.local sẽ tới app2
+Setup nginx sao cho khi trỏ địa chỉ gốc.nginx sẽ chuyển tới IP1, trỏ tới /blog nginx sẽ chuyển tới IP2
 
 Triển khai
 1. Cài đặt nginx (sử dụng Raspi)
