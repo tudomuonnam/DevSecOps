@@ -30,10 +30,6 @@ Có mấy mục cần điền gồm:
 kubectl cluster-info
 
 Kubernetes control plane is running at https://192.168.49.2:8443  <-- Copy địa chỉ này
-# Tạo namespace jenkins
-kubectl create namespace jenkins
-# Tạo service account cho jenkins trên kubernetes 
-kubectl create serviceaccount jenkins --namespace=jenkins
 ```
 
 
