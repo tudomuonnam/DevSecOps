@@ -3,6 +3,12 @@
 
 Để tạo một địa chỉ trong mạng lan ví dụ `rasberrypi.local` chẳng hạn có thể dùng avahi-daemon.
 
+## Avahi là gì?
+
+<em>Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. This enables you to plug your laptop or computer into a network and instantly be able to view other people who you can chat with, find printers to print to or find files being shared. Compatible technology is found in Apple MacOS X (branded "Bonjour" and sometimes "Zeroconf").
+
+Avahi is primarily targetted at Linux systems and ships by default in most distributions. It is not ported to Windows at this stage, but will run on many other BSD-like systems. The primary API is D-Bus and is required for usage of most of Avahi, however services can be published using an XML service definition placed in /etc/avahi/services.</em> [Source](https://www.avahi.org/)
+
 ## Ưu điểm của việc sử dụng địa chỉ mạng lan
 - Máy được cài đặt địa chỉ local có thể thay đổi địa chỉ ip mà vẫn có thể truy cập được bằng http, ssh, hay ping
 - Tên miền dễ nhớ hơn địa chỉ IP 
