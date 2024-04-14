@@ -5,7 +5,7 @@ Sử dụng XSS để lấy thông tin nạn nhân
 
 Ứng dụng chat của website luôn gói link được gửi trong chat vào thẻ a 
 
-Ví dụ bạn gõ https://google.com và nhấn gửi. Ứng dụng sẽ gói thành <a href= google.com>
+Ví dụ bạn gõ https://google.com và nhấn gửi. Ứng dụng sẽ gói thành <a href= google.com> </a>
 
 Vấn đề ở đây là Ứng dụng không kiểm tra các kí tự được gói trong link. Payload kiểm tra là:
 
